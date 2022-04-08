@@ -1,16 +1,34 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome App"/>
+  <VFor> </Vfor>
+  <For></For>
+  <Aisatsu></Aisatsu>
+  <Form></Form>
+  <ColorChange></ColorChange>
+  <LeftRight></LeftRight>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import VFor from './components/VFor'
+import For from './components/For'
+import Aisatsu from './components/Aisatsu'
+import Form from './components/Form'
+import ColorChange from './components/ColorChange'
+import LeftRight from './components/LeftRight'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+    VFor,
+    For,
+    Aisatsu,
+    Form,
+    ColorChange,
+    LeftRight
+   }
 }
 </script>
 
